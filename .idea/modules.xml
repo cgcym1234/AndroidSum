@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActionBarTest/ActionBarTest.iml" filepath="$PROJECT_DIR$/ActionBarTest/ActionBarTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomViewDemo/CustomViewDemo.iml" filepath="$PROJECT_DIR$/CustomViewDemo/CustomViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GirdViewDemo/GirdViewDemo.iml" filepath="$PROJECT_DIR$/GirdViewDemo/GirdViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyView/MyView.iml" filepath="$PROJECT_DIR$/MyView/MyView.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh .iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh .iml" />

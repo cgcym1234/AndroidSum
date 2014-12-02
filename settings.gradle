@@ -1,4 +1,4 @@
-include ':app', ':SimpleSegment', ':listViewTest', ':MyView', ':javaLearn', ':Activity生命周期', ':ViewPager使用', ':ViewPagerDemo', ':Sum', 'CustomViewDemo', 'ActionBarTest'
+include ':app', ':SimpleSegment', ':listViewTest', ':MyView', ':javaLearn', ':Activity生命周期', ':ViewPager使用', ':ViewPagerDemo', ':Sum', ':GirdViewDemo', 'CustomViewDemo', 'ActionBarTest'
 include ':PullToRefresh '
 include ':pull'
 include ':ViewPagerAndTabhost'
