@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActionBarTest" />
+            <option value="$PROJECT_DIR$/Activity鐢熷懡鍛ㄦ湡" />
+            <option value="$PROJECT_DIR$/CustomViewDemo" />
+            <option value="$PROJECT_DIR$/MyView" />
+            <option value="$PROJECT_DIR$/PullToRefresh" />
+            <option value="$PROJECT_DIR$/SimpleSegment" />
+            <option value="$PROJECT_DIR$/Sum" />
+            <option value="$PROJECT_DIR$/ViewPagerAndTabhost" />
+            <option value="$PROJECT_DIR$/ViewPagerDemo" />
+            <option value="$PROJECT_DIR$/ViewPager浣跨敤" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/badgeView" />
+            <option value="$PROJECT_DIR$/barCodeTest" />
+            <option value="$PROJECT_DIR$/javaLearn" />
+            <option value="$PROJECT_DIR$/listViewTest" />
+            <option value="$PROJECT_DIR$/pull" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

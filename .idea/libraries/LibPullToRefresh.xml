@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="LibPullToRefresh">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Sum/build/intermediates/exploded-aar/LibPullToRefresh/res" />
+      <root url="jar://$PROJECT_DIR$/Sum/build/intermediates/exploded-aar/LibPullToRefresh/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

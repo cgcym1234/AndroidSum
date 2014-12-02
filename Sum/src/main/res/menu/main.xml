@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <!-- 属性说明：
+    orderInCategory：actionbar里每个item的优先级，值越大优先级越低，
+        actionbar地方不够就会放到overflow中,而且在overflow中的时候值越大位置越在后
+
+    showAsAction: 指定了该按钮显示的位置，主要有以下几种值可选：
+        1.always表示永远显示在ActionBar中，如果屏幕空间不够则无法显示，
+        2.ifRoom表示屏幕空间够的情况下显示在ActionBar中，不够的话就显示在overflow中，
+        3.never则表示永远显示在overflow中。
+        4.collapseActionView，这个值表示该控件可以被合并成一个Action按钮
+
+    title:
+    显示在ActionBar上的按钮都只有一个图标而已，我们在title中指定的文字并没有显示出来。
+    没错，title中的内容通常情况下只会在overflow中显示出来，ActionBar中由于屏幕空间有限，
+    默认是不会显示title内容的。但是出于以下几种因素考虑，即使title中的内容无法显示出来，
+    我们也应该给每个item中都指定一个title属性：
+    1.当ActionBar中的剩余空间不足的时候，如果Action按钮指定的showAsAction属性是ifRoom的话，
+    2.该Action按钮就会出现在overflow当中，此时就只有title能够显示了。
+    3.如果Action按钮在ActionBar中显示，用户可能通过长按该Action按钮的方式来查看到title的内容。-->
+
+
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ofm_setting_icon"
+        android:title="@string/action_settings"
+        android:orderInCategory="10"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/ofm_collect_icon"
+        android:title="@string/action_collection"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+
+
+    <!--
+   添加Action View
+ActionView是一种可以在ActionBar中替换Action按钮的控件，
+它可以允许用户在不切换界面的情况下通过ActionBar完成一些较为丰富的操作。
+比如说，你需要完成一个搜索功能，就可以将SeachView这个控件添加到ActionBar中。
+为了声明一个ActionView，我们可以在menu资源中通过actionViewClass属性来指定一个控件，
+例如可以使用如下方式添加SearchView：
+   -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/actionbar_search_icon"
+        android:title="@string/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_plus"
+        android:title="@string/action_plus"
+        android:icon="@drawable/actionbar_add_icon"
+        android:actionProviderClass="mymodule.mymodule.Utils.PlusActionProvider"
+        android:showAsAction="ifRoom" />
+
+    <!--
+    添加Action Provider
+和Action View有点类似，Action Provider也可以将一个Action按钮替换成一个自定义的布局。
+但不同的是，Action Provider能够完全控制事件的所有行为，并且还可以在点击的时候显示子菜单。
+为了添加一个Action Provider，我们需要在<item>标签中指定一个actionViewClass属性，
+在里面填入Action Provider的完整类名。我们可以通过继承ActionProvider类的方式来创建一个自己的Action Provider，
+同时，Android也提供好了几个内置的Action Provider，比如说ShareActionProvider。
+
+由于每个Action Provider都可以自由地控制事件响应，所以它们不需要在onOptionsItemSelected()方法中再去监听点击事件，
+而是应该在onPerformDefaultAction()方法中去执行相应的逻辑。
+    -->
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom" />
+
+
+
+</menu>

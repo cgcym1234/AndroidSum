@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <!--orderInCategory actionbar里每个item的优先级，
+    值越大优先级越低，actionbar地方不够就会放到overflow中
+
+    showAsAction则指定了该按钮显示的位置，主要有以下几种值可选：
+    always表示永远显示在ActionBar中，如果屏幕空间不够则无法显示，
+    ifRoom表示屏幕空间够的情况下显示在ActionBar中，不够的话就显示在overflow中，
+    never则表示永远显示在overflow中。
+    collapseActionView，这个值表示该控件可以被合并成一个Action按钮
+
+    显示在ActionBar上的按钮都只有一个图标而已，我们在title中指定的文字并没有显示出来。
+    没错，title中的内容通常情况下只会在overflow中显示出来，ActionBar中由于屏幕空间有限，
+    默认是不会显示title内容的。但是出于以下几种因素考虑，即使title中的内容无法显示出来，
+    我们也应该给每个item中都指定一个title属性：
+当ActionBar中的剩余空间不足的时候，如果Action按钮指定的showAsAction属性是ifRoom的话，
+该Action按钮就会出现在overflow当中，此时就只有title能够显示了。
+如果Action按钮在ActionBar中显示，用户可能通过长按该Action按钮的方式来查看到title的内容。-->
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/actionbar_add_icon"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search"
+        />
+
+    <item
+        android:id="@+id/action_plus"
+        android:icon="@drawable/actionbar_add_icon"
+        android:actionProviderClass="mymodule.mymodule.actionbartest.PlusActionProvider"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_plus"
+        />
+
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/ofm_collect_icon"
+        android:title="@string/action_collection"/>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@drawable/ofm_card_icon"
+        android:title="@string/action_card"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ofm_setting_icon"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/ofm_feedback_icon"
+        android:title="@string/action_feed"/>
+</menu>

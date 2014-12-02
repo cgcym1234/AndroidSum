@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mymodule.mymodule.sum" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="mymodule.mymodule.Activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mymodule.mymodule.Activities.BarCodeDemo"
+            android:label="@string/title_activity_bar_code_demo"
+            android:parentActivityName="mymodule.mymodule.Activities.MainActivity">
+
+            <!--Android 4.1版本之前需要这样配置父Activity
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mymodule.mymodule.Activities.MainActivity"
+                />-->
+        </activity>
+
+    </application>
+
+</manifest>

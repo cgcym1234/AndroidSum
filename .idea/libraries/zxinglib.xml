@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zxinglib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sum/build/intermediates/exploded-aar/zxinglib/libs/core-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Sum/build/intermediates/exploded-aar/zxinglib/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/Sum/build/intermediates/exploded-aar/zxinglib/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

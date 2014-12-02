@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActionBarTest/ActionBarTest.iml" filepath="$PROJECT_DIR$/ActionBarTest/ActionBarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomViewDemo/CustomViewDemo.iml" filepath="$PROJECT_DIR$/CustomViewDemo/CustomViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyView/MyView.iml" filepath="$PROJECT_DIR$/MyView/MyView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh .iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh .iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleSegment/SimpleSegment.iml" filepath="$PROJECT_DIR$/SimpleSegment/SimpleSegment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum/Sum.iml" filepath="$PROJECT_DIR$/Sum/Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerAndTabhost/ViewPagerAndTabhost.iml" filepath="$PROJECT_DIR$/ViewPagerAndTabhost/ViewPagerAndTabhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerDemo/ViewPagerDemo.iml" filepath="$PROJECT_DIR$/ViewPagerDemo/ViewPagerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/badgeView/badgeView.iml" filepath="$PROJECT_DIR$/badgeView/badgeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barCodeTest/barCodeTest.iml" filepath="$PROJECT_DIR$/barCodeTest/barCodeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaLearn/javaLearn.iml" filepath="$PROJECT_DIR$/javaLearn/javaLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listViewTest/listViewTest.iml" filepath="$PROJECT_DIR$/listViewTest/listViewTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pull/pull.iml" filepath="$PROJECT_DIR$/pull/pull.iml" />
+    </modules>
+  </component>
+</project>
+

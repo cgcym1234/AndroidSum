@@ -1,0 +1,6 @@
+include ':app', ':SimpleSegment', ':listViewTest', ':MyView', ':javaLearn', ':Activity生命周期', ':ViewPager使用', ':ViewPagerDemo', ':Sum', 'CustomViewDemo', 'ActionBarTest'
+include ':PullToRefresh '
+include ':pull'
+include ':ViewPagerAndTabhost'
+include ':badgeView'
+include ':barCodeTest'
